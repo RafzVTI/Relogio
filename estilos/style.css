@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --fonte-relogio: Orbitron, arial;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    width: 100vw; 
+    height: 100vh;
+
+
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logio {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 500px;
+    height: 150px;
+
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-relogio);
+    font-size: 2em;
+    text-align: right;
+    padding: 70px;
+    margin-left: auto;
+}
+
+.text {
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin: auto;
+}
