@@ -16,10 +16,11 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url('../imagem/fundo-estrelado.jpg');
+    background-color: black;
+    /*background-image: url('../imagem/fundo-estrelado.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover;*/
 }
  
 header {
