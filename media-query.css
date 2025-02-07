@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    section {
+        flex-direction: row;
+    }
+    .container {
+        flex-direction: row;
+    }
+
+    .relogio {
+        flex-direction: row;
+    }
+    .tempo {
+        flex-direction: row;
+
+        gap: 10px;
+    }
+
+    .tempo div {
+        font-size: 3.5em;
+    }
+    
+    #pontos {
+        font-size: 3.5em;
+    }
+
+    .dias  ul {
+        list-style: none; 
+        font-size: 1.5em;
+        padding: 50px;
+        margin: auto;
+    }
+    .dias  ul  li {
+        margin-bottom: 2px;
+        padding-left: 20px;
+        color: rgb(121, 121, 121);
+    }
+    .dias ul li.diaatual {
+        color: yellow;
+        font-weight: bold;
+    }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .tempo div {
+            font-size: 4em;
+        }
+        #pontos {
+            font-size: 4em;
+        }
+    }
