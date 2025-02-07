@@ -10,12 +10,12 @@ function atualizar(){
     document.getElementById('segundos').textContent = segundos
 
     //dia da semana
-    const diaSemana = document.querySelectorAll('#diasSemana li ul')[0]
+    const diaSemana = document.querySelectorAll('#diasSemana li')
     const diaAtual = agora.getDay()
     
     diaSemana.forEach(dia => dia.classList.remove('diaatual'))
 
-    /*diaSemana[diaAtual].classList.add('diaatual')*/
+    diaSemana[diaAtual].classList.add('diaatual')
 }
 
 setInterval(atualizar, 1000)
