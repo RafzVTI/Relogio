@@ -28,12 +28,27 @@ header {
     
 }
 
+
 header h1 {
     font-family: var(--fonte-relogio);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
     color: white;
     margin: auto;
     padding-left: 100px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--fonte-dias);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 2.5em;
+    padding-left: 90px;
 }
 
 section {
@@ -72,6 +87,7 @@ section {
     display: flex;
     gap: 0px;
     flex-direction: column;
+    font-style: monospace;
 }
 
 .tempo div {
@@ -80,6 +96,7 @@ section {
     color: white;
     font-size: 2em;
     font-weight: bold;
+    
 }
 
 #pontos {
@@ -109,4 +126,12 @@ section {
 .dias ul li.diaatual {
     color: yellow;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-relogio);
+    font-style: italic;
+    padding-left: 100px;    
 }
